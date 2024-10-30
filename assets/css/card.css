@@ -1,0 +1,49 @@
+section {
+  width: 280px;
+  height: 400px;
+  background-image: url(../imgs/honey.jpg);
+  background-size: 140%;
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  background-color: #fbf7e3;
+  border-radius: 100px;
+  margin: 20px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 15px;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  color: #612406;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  align-items: center;
+}
+
+div p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+em {
+  font-weight: 600;
+  font-size: 1.3rem;
+  padding-bottom: 5px;
+}
+
+button {
+  width: 50%;
+  border: none;
+  background-color: #f3df85;
+  font-size: 1rem;
+  color: #612406;
+  padding: 8px;
+  border-radius: 20px;
+}
